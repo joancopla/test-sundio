@@ -1,0 +1,22 @@
+
+// grid variables
+$grid-columns: 12;
+$grid-max-width-xsmall: 30em; //480px width
+$grid-max-width-small: 48em; //768px width
+$grid-max-width-medium: 60em;  //960px width
+$grid-max-width-large: 87.5em;  //1400px width
+
+
+// breakpoints
+//480px - 30em
+$breakpoint-xsmall: "only screen and (min-width: 30em)";
+
+//768px - 48em
+$breakpoint-small: "only screen and (min-width: 48em)";
+
+//960 - 60em
+$breakpoint-medium: "only screen and (min-width: 60em)";
+
+//1400px - 87.5em
+
+$breakpoint-large: "only screen and (min-width: 87.5em)";
