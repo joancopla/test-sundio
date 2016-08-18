@@ -1,0 +1,73 @@
+/* line 1, ../sass/mixins.scss */
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 3, ../sass/content.scss */
+.main-content {
+  background-color: #fff;
+  text-align: center;
+  padding: 35px 20px;
+}
+
+/* line 8, ../sass/content.scss */
+.main-content h1 {
+  font-family: 'Sansa Pro', sans-serif;
+  font-weight: 700;
+  font-size: 1.625em;
+  margin-bottom: 20px;
+}
+
+/* line 14, ../sass/content.scss */
+.main-content h2 {
+  font-family: 'Sansa Pro', sans-serif;
+  color: #ed1c2e;
+  font-weight: 700;
+  font-size: 1.125em;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+/* line 22, ../sass/content.scss */
+.main-content p {
+  font-family: verdana, sans-serif;
+  color: #333333;
+  font-weight: normal;
+  font-size: 0.750em;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 48em) {
+  /* line 33, ../sass/content.scss */
+  .main-content {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 65px;
+    margin-top: -45px;
+  }
+}
+@media only screen and (min-width: 60em) {
+  /* line 41, ../sass/content.scss */
+  .main-content {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 65px;
+    margin-top: -45px;
+  }
+}
+@media only screen and (min-width: 87.5em) {
+  /* line 49, ../sass/content.scss */
+  .main-content {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 240px 67px 240px;
+    margin-top: -45px;
+  }
+}

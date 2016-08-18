@@ -1,0 +1,55 @@
+@import "variables";
+@import "mixins";
+.main-content {
+    background-color: #fff;
+    text-align: center;
+    padding: 35px 20px;
+}
+.main-content h1 {
+    font-family: 'Sansa Pro', sans-serif;
+    font-weight: 700;
+    font-size: 1.625em;
+    margin-bottom: 20px;
+}
+.main-content h2 {
+    font-family: 'Sansa Pro', sans-serif;
+    color: #ed1c2e;
+    font-weight: 700;
+    font-size: 1.125em;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.main-content p {
+    font-family: verdana, sans-serif;
+    color: #333333;
+    font-weight: normal;
+    font-size: 0.750em;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+//////////////////////MEDIA QUERIES/////////////////
+@media #{$breakpoint-small} {
+  .main-content {
+      background-color: #fff;
+      text-align: center;
+      padding: 100px 65px;
+      margin-top: -45px;
+  }
+}
+@media #{$breakpoint-medium} {
+  .main-content {
+      background-color: #fff;
+      text-align: center;
+      padding: 100px 65px;
+      margin-top: -45px;
+  }
+}
+@media #{$breakpoint-large} {
+  .main-content {
+      background-color: #fff;
+      text-align: center;
+      padding: 100px 240px 67px 240px;
+      margin-top: -45px;
+  }
+}

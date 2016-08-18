@@ -10,3 +10,92 @@
 }
 
 /*SLIDER STYLES ==== MOBILE FIRST*/
+/* line 5, ../sass/slider.scss */
+.slider-wave {
+  position: relative;
+  z-index: 9999;
+  padding-top: 82px;
+  margin-top: -40px;
+  background-image: url("../images/summer-wave.svg");
+  background-repeat: repeat-x;
+  background-size: 150% 82px;
+}
+
+/* line 14, ../sass/slider.scss */
+.slider-back-sm {
+  background-color: #fbeb2e;
+  height: 20px;
+  margin-top: -20px;
+}
+
+/* line 19, ../sass/slider.scss */
+.slider-caption {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 1.25em;
+  position: absolute;
+  z-index: 9999999;
+  letter-spacing: 1px;
+  text-shadow: 0 0 8px white;
+  left: 40px;
+}
+
+@media only screen and (min-width: 48em) {
+  /* line 31, ../sass/slider.scss */
+  .slider-caption {
+    width: 400px;
+    line-height: 1.3em;
+    font-size: 3em;
+    left: 15%;
+    top: 25%;
+  }
+
+  /* line 38, ../sass/slider.scss */
+  .slider-caption span {
+    padding-left: 20px;
+  }
+
+  /* line 41, ../sass/slider.scss */
+  .slider-back-sm {
+    display: none;
+  }
+}
+@media only screen and (min-width: 60em) {
+  /* line 46, ../sass/slider.scss */
+  .slider-caption {
+    width: 400px;
+    line-height: 1.3em;
+    font-size: 3em;
+    left: 15%;
+    top: 25%;
+  }
+
+  /* line 53, ../sass/slider.scss */
+  .slider-caption span {
+    padding-left: 20px;
+  }
+
+  /* line 56, ../sass/slider.scss */
+  .slider-back-sm {
+    display: none;
+  }
+}
+@media only screen and (min-width: 87.5em) {
+  /* line 61, ../sass/slider.scss */
+  .slider-caption {
+    width: 400px;
+    line-height: 1.3em;
+    font-size: 4em;
+    left: 9%;
+    top: 25%;
+  }
+
+  /* line 68, ../sass/slider.scss */
+  .slider-caption span {
+    padding-left: 20px;
+  }
+
+  /* line 71, ../sass/slider.scss */
+  .slider-back-sm {
+    display: none;
+  }
+}

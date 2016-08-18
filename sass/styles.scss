@@ -2,39 +2,68 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 @import "compass/reset";
 @import "topbar";
-@import "slider"; 
-
+@import "slider";
+@import "content";
 
 /*GENERAL STYLES*/
-body{
-  background-color: #eeeeee;
+body {
+    background-color: #eeeeee;
 }
-
-mt-0{
-  margin-top: 0;
+.shadow {
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,.15);
+    box-shadow: 0 0 6px rgba(0,0,0,.15);
 }
-
-mt-20{
-  margin-top: 20px;
+.clearfix {
+    clear: both;
 }
-
-mt-40{
-  margin-top: 40px;
+.mt--30 {
+    margin-top: -30px;
 }
-mt-60{
-  margin-top: 60px;
+.mt--20 {
+    margin-top: -20px;
 }
-mt-80{
-  margin-top: 80px;
+.mt-0 {
+    margin-top: 0;
 }
-
-.list-unstyled{
-  list-style: none;
+.mt-20 {
+    margin-top: 20px;
 }
-.list-inline li{
-display: inline-block;
-float: left;
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.mt-80 {
+    margin-top: 80px;
+}
+.list-unstyled {
+    list-style: none;
+}
+.list-inline li {
+    display: inline-block;
+    float: left;
+}
+.border-wrapper {
+    border: 1px solid #d7d7d7;
+}
+.rounded-border-bottom {
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn {
+    background-color: #ed1c2e;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Sansa Pro', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 30px;
 }
