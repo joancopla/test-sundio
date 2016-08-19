@@ -373,76 +373,303 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     margin-top: -45px;
   }
 }
-/*GENERAL STYLES*/
-/* line 11, ../sass/styles.scss */
-body {
-  background-color: #eeeeee;
+/* line 1, ../sass/mixins.scss */
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-/* line 14, ../sass/styles.scss */
+/*MOBILE STYLES ==== MOBILE FIRST*/
+/* line 6, ../sass/footer.scss */
+footer {
+  padding-top: 67px;
+  background-image: url("../images/sunweb-wave.svg");
+  background-repeat: repeat-x;
+  background-size: 500% 67px;
+  background-position: center top;
+}
+
+/* line 14, ../sass/footer.scss */
+footer li {
+  padding: 5px 0;
+}
+
+/* line 18, ../sass/footer.scss */
+footer a {
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+}
+
+/* line 24, ../sass/footer.scss */
+footer h3 {
+  font-family: 'Sansa Pro', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* line 29, ../sass/footer.scss */
+address {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* line 33, ../sass/footer.scss */
+.footer-content {
+  height: 400px;
+  /*DELETE*/
+  background-color: #fbeb2e;
+}
+
+/* line 37, ../sass/footer.scss */
+.brand-footer {
+  position: absolute;
+  z-index: 9999999999;
+  left: 70px;
+  margin-top: -65px;
+}
+
+/* line 44, ../sass/footer.scss */
+.brand-footer img {
+  width: 170px;
+  height: 52px;
+}
+
+/* line 50, ../sass/footer.scss */
+.slogan-footer span {
+  display: inline;
+  padding-top: 20px;
+  width: 250px;
+  font-family: 'fords folly',sans-serif;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #eb182c;
+  position: absolute;
+  left: -25px;
+  text-align: center;
+}
+
+/* line 63, ../sass/footer.scss */
+.footer-wrapper {
+  width: 100%;
+  height: 400px;
+  background-color: #fbeb2e;
+  margin: 0 auto;
+}
+
+/* line 69, ../sass/footer.scss */
+.hidden-xs {
+  display: none;
+}
+
+/* line 72, ../sass/footer.scss */
+.mnu-footer-1 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+/* line 76, ../sass/footer.scss */
+footer .footer-social-links a {
+  font-size: 20px;
+}
+
+/* line 79, ../sass/footer.scss */
+footer .footer-social-links span {
+  padding: 0 10px 0 0;
+}
+
+@media only screen and (min-width: 48em) {
+  /* line 86, ../sass/footer.scss */
+  footer {
+    background-size: 150% 67px;
+  }
+
+  /* line 90, ../sass/footer.scss */
+  .brand-footer {
+    left: 20px;
+    margin-top: -80px;
+    float: left;
+  }
+
+  /* line 97, ../sass/footer.scss */
+  .slogan-footer {
+    float: left;
+    margin-top: -20px;
+  }
+
+  /* line 103, ../sass/footer.scss */
+  .slogan-footer span {
+    display: inline;
+    width: 500px;
+    font-family: 'fords folly',sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #eb182c;
+    position: absolute;
+    z-index: 99999999;
+    left: 250px;
+    text-align: center;
+  }
+
+  /* line 117, ../sass/footer.scss */
+  .footer-wrapper {
+    width: 768px;
+  }
+
+  /* line 120, ../sass/footer.scss */
+  .hidden-xs {
+    display: inline;
+  }
+
+  /* line 123, ../sass/footer.scss */
+  .mnu-footer-1 {
+    padding-top: 0;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 60em) {
+  /* line 130, ../sass/footer.scss */
+  footer {
+    background-size: 150% 67px;
+  }
+
+  /* line 134, ../sass/footer.scss */
+  .brand-footer {
+    left: 10%;
+    margin-top: -80px;
+  }
+
+  /* line 140, ../sass/footer.scss */
+  .hidden-xs {
+    display: inline;
+  }
+
+  /* line 143, ../sass/footer.scss */
+  .mnu-footer-1 {
+    padding-top: 0;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 87.5em) {
+  /* line 153, ../sass/footer.scss */
+  footer {
+    background-size: 100% 67px;
+  }
+
+  /* line 157, ../sass/footer.scss */
+  .brand-footer {
+    left: 250px;
+    margin-top: -80px;
+    float: left;
+  }
+
+  /* line 164, ../sass/footer.scss */
+  .slogan-footer {
+    float: left;
+  }
+
+  /* line 168, ../sass/footer.scss */
+  .footer-wrapper {
+    width: 900px;
+    height: 400px;
+    background-color: #fbeb2e;
+    margin: 0 auto;
+  }
+
+  /* line 174, ../sass/footer.scss */
+  .hidden-xs {
+    display: inline;
+  }
+
+  /* line 177, ../sass/footer.scss */
+  .mnu-footer-1 {
+    padding-top: 0;
+    text-align: left;
+  }
+}
+/*GENERAL STYLES*/
+/* line 13, ../sass/styles.scss */
+body {
+  background-color: #eeeeee;
+  font-family: verdana, sans-serif;
+}
+
+/* line 17, ../sass/styles.scss */
 .shadow {
   -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
 }
 
-/* line 19, ../sass/styles.scss */
+/* line 22, ../sass/styles.scss */
 .clearfix {
   clear: both;
 }
 
-/* line 22, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
+a {
+  color: #20a0de;
+}
+
+/* line 28, ../sass/styles.scss */
 .mt--30 {
   margin-top: -30px;
 }
 
-/* line 25, ../sass/styles.scss */
+/* line 31, ../sass/styles.scss */
 .mt--20 {
   margin-top: -20px;
 }
 
-/* line 28, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 .mt-0 {
   margin-top: 0;
 }
 
-/* line 31, ../sass/styles.scss */
+/* line 37, ../sass/styles.scss */
 .mt-20 {
   margin-top: 20px;
 }
 
-/* line 34, ../sass/styles.scss */
+/* line 40, ../sass/styles.scss */
 .mt-40 {
   margin-top: 40px;
 }
 
-/* line 37, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 .mt-60 {
   margin-top: 60px;
 }
 
-/* line 40, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 .mt-80 {
   margin-top: 80px;
 }
 
-/* line 43, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 .list-unstyled {
   list-style: none;
 }
 
-/* line 46, ../sass/styles.scss */
+/* line 52, ../sass/styles.scss */
 .list-inline li {
   display: inline-block;
   float: left;
 }
 
-/* line 50, ../sass/styles.scss */
+/* line 56, ../sass/styles.scss */
 .border-wrapper {
   border: 1px solid #d7d7d7;
 }
 
-/* line 53, ../sass/styles.scss */
+/* line 59, ../sass/styles.scss */
 .rounded-border-bottom {
   -webkit-border-bottom-left-radius: 5px;
   -moz-border-bottom-left-radius: 5px;
@@ -452,7 +679,7 @@ body {
   border-bottom-right-radius: 5px;
 }
 
-/* line 61, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 .btn {
   background-color: #ed1c2e;
   color: #fff;

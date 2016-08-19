@@ -6,10 +6,13 @@
 @import "topbar";
 @import "slider";
 @import "content";
+@import "footer";
+
 
 /*GENERAL STYLES*/
 body {
     background-color: #eeeeee;
+    font-family: verdana, sans-serif;
 }
 .shadow {
     -webkit-box-shadow: 0 0 6px rgba(0,0,0,.15);
@@ -18,6 +21,9 @@ body {
 }
 .clearfix {
     clear: both;
+}
+a{
+  color: #20a0de;
 }
 .mt--30 {
     margin-top: -30px;

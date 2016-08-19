@@ -1,0 +1,181 @@
+@import "variables";
+@import "mixins";
+/*MOBILE STYLES ==== MOBILE FIRST*/
+
+
+footer{
+
+    padding-top: 67px;
+    background-image: url("../images/sunweb-wave.svg");
+    background-repeat: repeat-x;
+    background-size: 500% 67px;
+    background-position: center top;
+}
+footer li{
+  padding: 5px 0;
+
+}
+footer a{
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+
+}
+footer h3{
+  font-family: 'Sansa Pro', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+address{
+  font-size: 12px;
+  line-height: 18px;
+}
+.footer-content{
+  height: 400px; /*DELETE*/
+  background-color:#fbeb2e;
+}
+.brand-footer {
+  position: absolute;
+  z-index: 9999999999;
+  left:70px;
+  margin-top: -65px;
+
+}
+.brand-footer img {
+
+    width: 170px;
+    height: 52px;
+
+}
+.slogan-footer span {
+    display: inline;
+    padding-top: 20px;
+    width: 250px;
+    font-family: 'fords folly',sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #eb182c;
+    position: absolute;
+    left: -25px;
+    text-align: center;
+}
+.footer-wrapper {
+    width: 100%;
+    height: 400px;
+    background-color: #fbeb2e;
+    margin: 0 auto;
+}
+.hidden-xs{
+  display: none;
+}
+.mnu-footer-1{
+  text-align: center;
+  padding-top: 40px;
+}
+footer .footer-social-links a {
+  font-size: 20px;
+}
+footer .footer-social-links span {
+ padding: 0 10px 0 0;
+}
+
+
+//////////////////////MEDIA QUERIES/////////////////
+@media #{$breakpoint-small} {
+footer{
+
+      background-size: 150% 67px;
+  }
+  .brand-footer {
+
+    left:20px;
+    margin-top: -80px;
+    float: left;
+
+  }
+  .slogan-footer{
+    float: left;
+    margin-top: -20px;
+
+
+  }
+  .slogan-footer span {
+      display: inline;
+      width:500px;
+      font-family: 'fords folly',sans-serif;
+      font-size: 1.3em;
+      letter-spacing: 1px;
+      line-height: 24px;
+      color: #eb182c;
+      position: absolute;
+      z-index: 99999999;
+      left: 250px;
+      text-align: center;
+
+  }
+  .footer-wrapper {
+      width: 768px;
+    }
+  .hidden-xs{
+    display: inline;
+  }
+  .mnu-footer-1{
+    padding-top: 0;
+    text-align: left;
+  }
+
+}
+@media #{$breakpoint-medium} {
+footer{
+
+      background-size: 150% 67px;
+  }
+  .brand-footer {
+
+    left:10%;
+    margin-top: -80px;
+
+  }
+  .hidden-xs{
+    display: inline;
+  }
+  .mnu-footer-1{
+    padding-top: 0;
+    text-align: left;
+  }
+
+
+}
+
+
+@media #{$breakpoint-large} {
+footer{
+
+      background-size: 100% 67px;
+  }
+  .brand-footer {
+
+    left:250px;
+    margin-top: -80px;
+    float: left;
+  }
+
+  .slogan-footer{
+    float: left;
+  }
+
+  .footer-wrapper{
+    width: 900px;
+    height: 400px;
+    background-color: #fbeb2e;
+    margin: 0 auto;
+  }
+  .hidden-xs{
+    display: inline;
+  }
+  .mnu-footer-1{
+    padding-top: 0; 
+    text-align: left;
+  }
+}
