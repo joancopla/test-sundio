@@ -1,75 +1,7 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
 @import "compass/reset";
+@import "general";
 @import "topbar";
 @import "slider";
 @import "content";
 @import "footer";
-
-
-/*GENERAL STYLES*/
-body {
-    background-color: #eeeeee;
-    font-family: verdana, sans-serif;
-}
-.shadow {
-    -webkit-box-shadow: 0 0 6px rgba(0,0,0,.15);
-    -moz-box-shadow: 0 0 6px rgba(0,0,0,.15);
-    box-shadow: 0 0 6px rgba(0,0,0,.15);
-}
-.clearfix {
-    clear: both;
-}
-a{
-  color: #20a0de;
-}
-.mt--30 {
-    margin-top: -30px;
-}
-.mt--20 {
-    margin-top: -20px;
-}
-.mt-0 {
-    margin-top: 0;
-}
-.mt-20 {
-    margin-top: 20px;
-}
-.mt-40 {
-    margin-top: 40px;
-}
-.mt-60 {
-    margin-top: 60px;
-}
-.mt-80 {
-    margin-top: 80px;
-}
-.list-unstyled {
-    list-style: none;
-}
-.list-inline li {
-    display: inline-block;
-    float: left;
-}
-.border-wrapper {
-    border: 1px solid #d7d7d7;
-}
-.rounded-border-bottom {
-    -webkit-border-bottom-left-radius: 5px;
-    -moz-border-bottom-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-    -moz-border-border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-.btn {
-    background-color: #ed1c2e;
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Sansa Pro', sans-serif;
-    font-weight: 700;
-    border-radius: 5px;
-    padding: 10px 30px;
-}

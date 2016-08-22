@@ -45,8 +45,8 @@
     width: 400px;
     line-height: 1.3em;
     font-size: 3em;
-    left: 15%;
-    top: 25%;
+    left: 20%;
+    top: 20%;
   }
 
   /* line 38, ../sass/slider.scss */
@@ -63,10 +63,10 @@
   /* line 46, ../sass/slider.scss */
   .slider-caption {
     width: 400px;
-    line-height: 1.3em;
+    line-height: 1.2em;
     font-size: 3em;
-    left: 15%;
-    top: 25%;
+    left: 20%;
+    top: 18%;
   }
 
   /* line 53, ../sass/slider.scss */
@@ -86,7 +86,7 @@
     line-height: 1.3em;
     font-size: 4em;
     left: 9%;
-    top: 25%;
+    top: 20%;
   }
 
   /* line 68, ../sass/slider.scss */

@@ -18,7 +18,7 @@
 }
 .slider-caption {
     font-family: 'Pacifico', sans-serif;
-  
+
     font-size: 1.25em;
     position: absolute;
     z-index: 9999999;
@@ -32,8 +32,8 @@
         width: 400px;
         line-height: 1.3em;
         font-size: 3em;
-        left: 15%;
-        top: 25%;
+        left: 20%;
+        top: 20%;
     }
     .slider-caption span {
         padding-left: 20px;
@@ -45,10 +45,10 @@
 @media #{$breakpoint-medium} {
     .slider-caption {
         width: 400px;
-        line-height: 1.3em;
+        line-height: 1.2em;
         font-size: 3em;
-        left: 15%;
-        top: 25%;
+        left: 20%;
+        top: 18%;
     }
     .slider-caption span {
         padding-left: 20px;
@@ -63,7 +63,7 @@
         line-height: 1.3em;
         font-size: 4em;
         left: 9%;
-        top: 25%;
+        top: 20%;
     }
     .slider-caption span {
         padding-left: 20px;
