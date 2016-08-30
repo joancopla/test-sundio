@@ -2,7 +2,6 @@
 @import "mixins";
 /*MOBILE STYLES ==== MOBILE FIRST*/
 
-
 footer{
 
     padding-top: 67px;
@@ -23,16 +22,18 @@ footer a{
 }
 footer h3{
   font-family: 'Sansa Pro', sans-serif;
+  font-size: 0.8em;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 address{
   font-size: 12px;
   line-height: 18px;
 }
 .footer-content{
-  height: 400px; /*DELETE*/
   background-color:#fbeb2e;
+  min-height: 300px;
+
 }
 .brand-footer {
   position: absolute;
@@ -62,8 +63,6 @@ address{
 }
 .footer-wrapper {
     width: 100%;
-    height: 400px;
-    background-color: #fbeb2e;
     margin: 0 auto;
 }
 .hidden-xs{
@@ -117,12 +116,17 @@ footer{
   .footer-wrapper {
       width: 768px;
     }
+
   .hidden-xs{
     display: inline;
   }
   .mnu-footer-1{
     padding-top: 0;
     text-align: left;
+  }
+  .footer-content{
+    min-height: 500px;
+
   }
 
 }
@@ -143,6 +147,10 @@ footer{
   .mnu-footer-1{
     padding-top: 0;
     text-align: left;
+  }
+  .footer-content{
+    min-height: 500px;
+
   }
 
 
@@ -168,14 +176,13 @@ footer{
   .footer-wrapper{
     width: 900px;
     height: 400px;
-    background-color: #fbeb2e;
     margin: 0 auto;
   }
   .hidden-xs{
     display: inline;
   }
   .mnu-footer-1{
-    padding-top: 0; 
+    padding-top: 0;
     text-align: left;
   }
 }

@@ -1,4 +1,3 @@
-/* line 1, ../sass/mixins.scss */
 *,
 *:after,
 *:before {
@@ -9,8 +8,6 @@
   box-sizing: border-box;
 }
 
-/*SLIDER STYLES ==== MOBILE FIRST*/
-/* line 5, ../sass/slider.scss */
 .slider-wave {
   position: relative;
   z-index: 9999;
@@ -21,14 +18,12 @@
   background-size: 150% 82px;
 }
 
-/* line 14, ../sass/slider.scss */
 .slider-back-sm {
   background-color: #fbeb2e;
   height: 20px;
   margin-top: -20px;
 }
 
-/* line 19, ../sass/slider.scss */
 .slider-caption {
   font-family: 'Pacifico', sans-serif;
   font-size: 1.25em;
@@ -40,7 +35,6 @@
 }
 
 @media only screen and (min-width: 48em) {
-  /* line 31, ../sass/slider.scss */
   .slider-caption {
     width: 400px;
     line-height: 1.3em;
@@ -49,18 +43,15 @@
     top: 20%;
   }
 
-  /* line 38, ../sass/slider.scss */
   .slider-caption span {
     padding-left: 20px;
   }
 
-  /* line 41, ../sass/slider.scss */
   .slider-back-sm {
     display: none;
   }
 }
 @media only screen and (min-width: 60em) {
-  /* line 46, ../sass/slider.scss */
   .slider-caption {
     width: 400px;
     line-height: 1.2em;
@@ -69,18 +60,15 @@
     top: 18%;
   }
 
-  /* line 53, ../sass/slider.scss */
   .slider-caption span {
     padding-left: 20px;
   }
 
-  /* line 56, ../sass/slider.scss */
   .slider-back-sm {
     display: none;
   }
 }
 @media only screen and (min-width: 87.5em) {
-  /* line 61, ../sass/slider.scss */
   .slider-caption {
     width: 400px;
     line-height: 1.3em;
@@ -89,12 +77,10 @@
     top: 20%;
   }
 
-  /* line 68, ../sass/slider.scss */
   .slider-caption span {
     padding-left: 20px;
   }
 
-  /* line 71, ../sass/slider.scss */
   .slider-back-sm {
     display: none;
   }

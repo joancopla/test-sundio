@@ -23,6 +23,7 @@ img {
     @extend %clearfix;
     }
 
+
 [class*='column-'] {
     float: left;
     /*padding: 1em;*/
@@ -44,6 +45,7 @@ img {
                 width: 100% / $grid-columns * $i;
                 }
             }
+
         }
 
     //////////////////////BREAKPOINT MEDIUM RULES/////////////////
@@ -60,6 +62,7 @@ img {
                     width: 100% / $grid-columns * $i;
                     }
                 }
+
             }
 
     //////////////////////BREAKPOINT LARGE RULES/////////////////
@@ -76,4 +79,8 @@ img {
                 width: 100% / $grid-columns * $i;
                 }
             }
+            .hidden-lg{
+              display: none;
+            }
+
         }

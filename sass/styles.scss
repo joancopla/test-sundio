@@ -1,7 +1,21 @@
+/*===========================
+1-INIT & RESET==============
+2-GENERAL STYLES============
+3-TOPBAR STYLES=============
+4-SLIDER STYLES=============
+5-CONTENT STYLES============
+6-FOOTER STYLES=============
+============================*/
 
+/*==============1-INIT & RESET=============*/
 @import "compass/reset";
+/*==============2-GENERAL STYLES=============*/
 @import "general";
+/*==============3-TOPBAR STYLES=============*/
 @import "topbar";
+/*==============4-SLIDER STYLES=============*/
 @import "slider";
+/*==============5-CONTENT STYLES=============*/
 @import "content";
+/*==============6-FOOTER STYLES=============*/
 @import "footer";
