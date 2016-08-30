@@ -135,8 +135,8 @@ footer .footer-social-links span {
     text-align: left;
   }
 
-  .footer-content {
-    min-height: 500px;
+  .footer-wrapper {
+    min-height: 550px;
   }
 }
 @media only screen and (min-width: 60em) {
@@ -158,7 +158,7 @@ footer .footer-social-links span {
     text-align: left;
   }
 
-  .footer-content {
+  .footer-wrapper {
     min-height: 500px;
   }
 }
@@ -179,7 +179,7 @@ footer .footer-social-links span {
 
   .footer-wrapper {
     width: 900px;
-    height: 400px;
+    min-height: 300px;
     margin: 0 auto;
   }
 

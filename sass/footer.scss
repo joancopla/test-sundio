@@ -31,7 +31,7 @@ address{
   line-height: 18px;
 }
 .footer-content{
-  background-color:#fbeb2e;
+  background-color:$brand-main-color;
   min-height: 300px;
 
 }
@@ -56,7 +56,7 @@ address{
     font-size: 1.1em;
     letter-spacing: 1px;
     line-height: 24px;
-    color: #eb182c;
+    color: $titles-color;
     position: absolute;
     left: -25px;
     text-align: center;
@@ -106,7 +106,7 @@ footer{
       font-size: 1.3em;
       letter-spacing: 1px;
       line-height: 24px;
-      color: #eb182c;
+      color: $titles-color;
       position: absolute;
       z-index: 99999999;
       left: 250px;
@@ -124,10 +124,11 @@ footer{
     padding-top: 0;
     text-align: left;
   }
-  .footer-content{
-    min-height: 500px;
 
+  .footer-wrapper{
+    min-height: 550px;
   }
+
 
 }
 @media #{$breakpoint-medium} {
@@ -148,9 +149,9 @@ footer{
     padding-top: 0;
     text-align: left;
   }
-  .footer-content{
-    min-height: 500px;
 
+  .footer-wrapper{
+    min-height: 500px;
   }
 
 
@@ -175,7 +176,7 @@ footer{
 
   .footer-wrapper{
     width: 900px;
-    height: 400px;
+    min-height: 300px;
     margin: 0 auto;
   }
   .hidden-xs{
